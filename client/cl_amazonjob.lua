@@ -9,12 +9,12 @@ local activeOrder = false
 
 CreateThread(function()
     local cargojobBlip = AddBlipForCoord(vector3(Config.BossCoords.x, Config.BossCoords.y, Config.BossCoords.z))
-    SetBlipSprite(cargojobBlip, 267)
+    SetBlipSprite(cargojobBlip, 67)
     SetBlipAsShortRange(cargojobBlip, true)
     SetBlipScale(cargojobBlip, 0.4)
     SetBlipColour(cargojobBlip, 2)
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString("cargo Teslimatı")
+    AddTextComponentString("Amazon")
     EndTextCommandSetBlipName(cargojobBlip)
 end)
 

@@ -24,6 +24,6 @@ Start the server and the resource will run automatically.
 
 You can customize the config file according to your needs.
 
-#Dependencies
+# Dependencies
 qb-core
 [amazon-map]"https://www.gta5-mods.com/misc/amazon-warehouse-retexture-sp-fivem-ready-davdd"
