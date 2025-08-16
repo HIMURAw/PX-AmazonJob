@@ -1,5 +1,3 @@
--- endlessV4
-
 fx_version 'cerulean'
 game 'gta5'
 
@@ -19,4 +17,3 @@ client_scripts {
 }
 
 lua54 'yes'
--- endlessV4

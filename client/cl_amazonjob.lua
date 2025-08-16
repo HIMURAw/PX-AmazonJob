@@ -39,7 +39,7 @@ function ClockInPed()
                 {
                     type = "client",
                     event = "px-amazonjob:client:startJob",
-                    icon = "fa-solid fa-cargo-slice",
+                    icon = "fa-solid fa-truck",
                     label = "İşe Başla",
                     canInteract = function()
                         return not Hired
@@ -48,7 +48,7 @@ function ClockInPed()
                 {
                     type = "client",
                     event = "px-amazonjob:client:finishWork",
-                    icon = "fa-solid fa-cargo-slice",
+                    icon = "fa-solid fa-truck",
                     label = "İşi Bitir Ve Paranı Al",
                     canInteract = function()
                         return Hired
@@ -120,8 +120,8 @@ function PullOutVehicle()
             exports['qb-target']:AddTargetEntity(cargoCar, {
                 options = {
                     {
-                        icon = "fa-solid fa-cargo-slice",
-                        label = "cargoyı Al",
+                        icon = "fa-solid fa-truck",
+                        label = "Kargoyu Al",
                         action = function(entity) Takecargo() end,
                         canInteract = function()
                             return Hired and activeOrder and not Hascargo
@@ -225,7 +225,7 @@ function NextDelivery()
         EndTextCommandSetBlipName(JobBlip)
         exports['qb-target']:AddCircleZone("deliverZone", vector3(newDelivery.x, newDelivery.y, newDelivery.z), 1.3,
             { name = "deliverZone", debugPoly = false, useZ = true, },
-            { options = { { type = "client", event = "px-amazonjob:client:delivercargo", icon = "fa-solid fa-cargo-slice", label = "cargoyi Teslim Et" }, }, distance = 1.5 })
+            { options = { { type = "client", event = "px-amazonjob:client:delivercargo", icon = "fa-solid fa-truck", label = "kargoyu Teslim Et" }, }, distance = 1.5 })
         activeOrder = true
         QBCore.Functions.Notify("İşte yeni siparişin!", "success")
     end

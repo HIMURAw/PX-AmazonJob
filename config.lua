@@ -2,7 +2,7 @@
 
 Config = {}
 
-Config.BossModel = "u_m_y_party_01"
+Config.BossModel = "a_f_y_business_02"
 
 Config.Payment = 2500                                         -- Per Delivery. Totals up and get paid when you return the vehicle.
 
