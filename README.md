@@ -25,6 +25,8 @@ Start the server and the resource will run automatically.
 You can customize the config file according to your needs.
 
 # Dependencies
-qb-core
+[qb-core](https://github.com/qbcore-framework/qb-core)
+
 [Amazon Map](https://www.gta5-mods.com/misc/amazon-warehouse-retexture-sp-fivem-ready-davdd)
+
 [Amazon Car](https://www.gta5-mods.com/vehicles/amazon-eav-add-on-fivem)
