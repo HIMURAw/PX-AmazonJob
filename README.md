@@ -26,4 +26,5 @@ You can customize the config file according to your needs.
 
 # Dependencies
 qb-core
-[amazon-map]"https://www.gta5-mods.com/misc/amazon-warehouse-retexture-sp-fivem-ready-davdd"
+[Amazon Map](https://www.gta5-mods.com/misc/amazon-warehouse-retexture-sp-fivem-ready-davdd)
+[Amazon Car](https://www.gta5-mods.com/vehicles/amazon-eav-add-on-fivem)
